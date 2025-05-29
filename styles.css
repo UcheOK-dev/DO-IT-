@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(245, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgb(19, 18, 18);
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#todo-input {
+    width: 200px;
+    padding: 5px;
+    height: 45px;
+    border-radius: 5px;
+    background: rgb(233, 224, 224);
+}
+#add-task-button{
+    height: 50px;
+    border-radius:  3px; 
+    background-color: blue;
+}
+#add-task-button:hover{
+    background-color: rgb(8, 72, 176);
+    color: aliceblue;
+    transition: all 0.5s;
+}
+.completed{
+    text-decoration: line-through;
+    background-color: rgb(156, 145, 145);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: rgb(71, 69, 69);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button.delete {
+    color: red;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.delete:hover {
+    background-color: darkred;
+    color: azure;
+}
+h1{
+    color: white;
+    text-align: center;
+}
