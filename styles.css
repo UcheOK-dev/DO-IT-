@@ -78,13 +78,18 @@ li span.scrollable-task {
     flex: 1 1 auto;
     min-width: 0;
     max-width: 220px;
-    padding: 20px;
     display: block;
     overflow-x: auto;      /* Add this */
     white-space: nowrap;
 }
 
-
+li span.scrollable-task::-webkit-scrollbar {
+    background: #888;
+}
+li span.scrollable-task::-webkit-scrollbar-thumb {
+    background: #bc0a0a;
+    border-radius: 2px;
+}
 
 @media (max-width: 520px) {
     body{
