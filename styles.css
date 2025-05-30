@@ -74,6 +74,17 @@ h1{
     text-align: center;
 }
 
+li span.scrollable-task {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 220px;
+    padding: 20px;
+    display: block;
+    overflow-x: auto;      /* Add this */
+    white-space: nowrap;
+}
+
+
 
 @media (max-width: 520px) {
     body{
